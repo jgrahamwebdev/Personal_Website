@@ -1,3 +1,4 @@
+import Contact from "./Contact"
 import Footer from "./Footer"
 import Hero from "./Hero"
 import Portfolio from "./Portfolio"
@@ -12,6 +13,7 @@ const HeaderBar = () => {
             <Hero />
             <Portfolio />
 
+            <Contact />
             <Footer />
         </div>
 

@@ -25,7 +25,7 @@ const Hero = () => {
         );
      }
     return (
-        <div className="w-full h-[60%] border-b-2 border-black flex mt-16">
+        <div className="w-full h-[42rem] border-b-2 border-black flex mt-16">
 
             <div className="w-1/2 h-full border-r-2 border-black flex items-start justify-center flex-col pl-9">
                <h1 className="font-extrabold text-[3.5rem] mb-4">
