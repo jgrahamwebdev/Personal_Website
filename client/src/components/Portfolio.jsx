@@ -1,7 +1,25 @@
 
+export const projects = [
+    {
+        id: 1,
+        title: 'Tech Stop',
+        description: 'A tech blog that allows users to register/login, create posts with image upload feature, and edit or delete their posts.',
+        one: 'MERN',
+        two: 'Tailwind CSS',
+    },
+    {
+        id: 2,
+        title: 'Application Tracker',
+        description: 'A project that was built with a group of 5 that allows users to keep log of when and where they applied for jobs with the ability to update status of application.',
+        one: 'MERN',
+        two: 'Tailwind CSS',
+    },
+]
+
+
 const Portfolio = () => {
     return (
-        <div className="w-full h-screen flex">
+        <div className="w-full h-screen flex border-b-2 border-black">
 
             <div className="w-1/2 h-full">
                 <div className="flex items-start justify-center flex-col pl-[8rem] pt-8">
