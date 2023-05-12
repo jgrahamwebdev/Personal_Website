@@ -2,6 +2,7 @@
 export const projects = [
     {
         id: 1,
+        image: '',
         title: 'Tech Stop',
         description: 'A tech blog that allows users to register/login, create posts with image upload feature, and edit or delete their posts.',
         one: 'MERN',
@@ -9,6 +10,7 @@ export const projects = [
     },
     {
         id: 2,
+        image: '',
         title: 'Application Tracker',
         description: 'A project that was built with a group of 5 that allows users to keep log of when and where they applied for jobs with the ability to update status of application.',
         one: 'MERN',

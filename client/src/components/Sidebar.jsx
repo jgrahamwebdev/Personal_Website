@@ -73,14 +73,14 @@ const Sidebar = () => {
     return (
         <Popover className="fixed lg:sticky lg:top-0 z-10">
       <nav className="w-[6rem] mx-auto items-center justify-between">
-        <div className={`transition duration-300 ease-in-out bg-white h-screen border-r-2 border-black flex flex-col items-center justify-between fixed w-[6rem]`}>
-          
+        <div className={`transition duration-300 ease-in-out bg-[#e8e8e7] h-screen border-r-2 border-black flex flex-col items-center justify-between fixed w-[6rem]`}>
           <div className="flex items-center justify-center h-[6rem]">
             <Popover.Button className="p-2 inline-flex items-center justify-center text-black">
               <span className="sr-only">Open menu</span>
-              <Bars3Icon className="h-9 w-9 text-blue-600 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110" aria-hidden="true"/>
+              <Bars3Icon className="h-9 w-9 hover:text-blue-600 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110" aria-hidden="true"/>
             </Popover.Button>
           </div>   
+          
 
           <div className='w-full h-[8rem] flex items-center justify-around flex-col'>
             {/* LINKEDIN */}
@@ -107,7 +107,7 @@ const Sidebar = () => {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-0 scale-95"
       >
-        <Popover.Panel focus className="fixed top-0 inset-x-0 transition transform origin-top-right z-20">
+        <Popover.Panel focus className="fixed top-0 inset-x-0 transition transform origin-top-right">
           <div className="bg-white w-[25rem] h-screen flex flex-col justify-between border-r-2 border-blue-600">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">

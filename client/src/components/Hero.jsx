@@ -16,8 +16,8 @@ const Hero = () => {
                </button>
             </div>
 
-            <div className="hidden md:flex flex-col items-center justify-center w-1/2 h-full z-[-2]">
-                <div className="w-full h-[85%] flex items-center justify-center flex-col z-[-1]">
+            <div className="hidden md:flex flex-col items-center justify-center w-1/2 h-full z-0">
+                <div className="w-full h-[85%] flex items-center justify-center flex-col">
                     <ModelCanvas />
                 </div>
             </div>

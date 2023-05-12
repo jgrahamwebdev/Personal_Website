@@ -19,11 +19,11 @@ const Model = () => {
           castShadow
           shadow-mapSize={1024}
         />
-        <pointLight intensity={0.5} />
+        <pointLight intensity={1.5} />
         <primitive
           object={model.scene}
-          scale={50}
-          position={[5, -4.25, 10]}
+          scale={10}
+          position={[5, -6.25, 0]}
           rotation={[0, 1.8, 0]}
         />
       </mesh>
