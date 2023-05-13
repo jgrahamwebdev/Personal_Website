@@ -10,11 +10,11 @@ import { Link } from 'react-router-dom'
 
 const solutions = [
     {
-      name: 'PORTFOLIO',
-      href: '#',
+      name: 'ABOUT ME',
+      href: '/about',
     },
     {
-      name: 'ABOUT ME',
+      name: 'PORTFOLIO',
       href: '#',
     },
     { 
@@ -111,10 +111,13 @@ const Sidebar = () => {
           <div className="bg-white w-[25rem] h-screen flex flex-col justify-between border-r-2 border-blue-600">
             <div className="pt-5 pb-6 px-5">
               <div className="flex items-center justify-between">
-                <div className="-mr-2">
+                <div className="-mr-2 w-screen">
                   <Popover.Button className="p-2 inline-flex items-center justify-center text-black">
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-9 w-9 text-blue-600 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110" aria-hidden="true" />
+                    <div className='flex items-center justify-end w-[19.5rem]'>
+                      <Link to={'/'}><img className='w-[6rem] h-auto cursor-pointer' src="/img/logo.png" alt="" /></Link>
+                    </div>
                   </Popover.Button>
                 </div>
               </div>
