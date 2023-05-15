@@ -2,16 +2,14 @@
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import Sidebar from '../components/Sidebar';
-import Footer from '../components/Footer';
 import { Link } from 'react-router-dom';
-import MobileMenu from '../components/MobileMenu';
 import MobileHeader from '../components/MobileHeader';
 
 export const cards = [
     {
         id: 1,
-        title: 'Audio Recording Engineer',
-        sub: 'Lorem, ipsum dolor.',
+        title: 'Sound Engineer',
+        sub: 'Live sound and studio recording/mixing',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, officiis similique dolore hic, debitis officia adipisci voluptatibus, iste dolores ratione inventore sed.',
         image: '/img/music.jpg',
         timeline: '2010 - 2020',
@@ -27,7 +25,7 @@ export const cards = [
     {
       id: 3,
       title: 'Full Stack Web Developer Certificate',
-      sub: 'Lorem, ipsum dolor.',
+      sub: 'Student at Coding Dojo',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, officiis similique dolore hic, debitis officia adipisci voluptatibus, iste dolores ratione inventore sed.',
       image: '/img/dojo.png',
       timeline: '2022 - 2023',
@@ -62,7 +60,7 @@ const AboutScreen = () => {
                 </div>
             </div>
 
-            <div className='w-screen md:w-3/4 h-auto flex items-center justify-center flex-col md:flex-row md:border-x-2 border-b-2 border-black py-[5rem]'>
+            <div className='w-screen md:w-3/4 h-auto flex items-center justify-center flex-col md:flex-row md:border-x-2 border-b-2 border-black py-[3rem]'>
                 
                 <div className='w-3/4 md:w-1/2 h-full flex items-center justify-center py-8'>
                     <img className='w-full md:w-[90%] h-auto border-2 border-black' src="/img/plane.jpg" alt="" />

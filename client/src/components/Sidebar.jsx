@@ -17,10 +17,6 @@ const solutions = [
       name: 'PORTFOLIO',
       href: '#',
     },
-    { 
-      name: 'GALLERY', 
-      href: '#', 
-    },
     {
       name: 'RECOMMENDATIONS',
       href: '#',
