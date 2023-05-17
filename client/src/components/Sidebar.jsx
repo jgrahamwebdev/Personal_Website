@@ -112,7 +112,7 @@ const Sidebar = () => {
                     <span className="sr-only">Close menu</span>
                     <XMarkIcon className="h-9 w-9 hover:text-blue-600 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110" aria-hidden="true" />
                     <div className='flex items-center justify-end w-[19.5rem]'>
-                      <Link to={'/'}><img className='w-[6rem] h-auto cursor-pointer' src="/img/logo.png" alt="" /></Link>
+                      <Link to={'/'}><img className='w-[6rem] h-auto cursor-pointer hover:bg-blue-300' src="/img/logo.png" alt="" /></Link>
                     </div>
                   </Popover.Button>
                 </div>

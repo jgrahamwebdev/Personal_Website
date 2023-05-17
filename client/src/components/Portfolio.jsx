@@ -39,50 +39,76 @@ export const projectsR = [
     },
 ]
 
-
 const Portfolio = () => {
     return (
-        <div className="w-full h-auto flex flex-col md:flex-row border-b-2 border-black">
+        <div className="w-screen md:w-full h-auto flex flex-col md:flex-row border-b-2 border-black"> 
 
             <div className="w-full md:w-1/2 h-full flex items-center justify-center flex-col">
-                <div className="flex items-center md:items-start justify-center flex-col pl-[5.3rem] pt-8 mb-8">
+                <div className="flex items-center md:items-start justify-center flex-col pl-[4.9rem] md:pl-[5.22rem] pt-8 mb-8 bg-white">
                     <h1 className="font-extrabold text-[3.5rem] mb-4">Portfolio</h1>
                     <p className="w-3/4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>
                     <button className="border-2 border-blue-600 py-2 px-4 font-extralight hover:bg-blue-600 hover:text-white hover:text-normal hover:animate-pulse transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110">See More &rarr;</button>
-               </div>
+                </div>
 
-            <div className='flex items-center justify-center flex-col pl-[4rem] md:pl-0'>
+            <div className='w-screen md:w-full flex items-center justify-center flex-col'>
             {projectsL.map((item) => (             
-              <div className='border-2 border-t-blue-600 border-l-blue-600 border-r-black border-b-black w-3/4 mb-12 p-4' key={item.id}> 
+              <div className='border-2 border-t-blue-600 border-l-blue-600 border-r-black border-b-black w-3/4 mb-12 p-4 bg-white ml-[6rem] md:ml-0' key={item.id}> 
                 <div className='overflow-hidden'>
 
-                    <img className="w-full h-auto mb-4 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110 cursor-pointer" src={item.image} alt="" />
+                  <img className="w-full h-auto mb-4 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110 cursor-pointer" src={item.image} alt="" />
 
-                  <div className='w-[30rem] h-auto mb-4 border-t-2 border-black pt-4'>
+                  <div className='w-[85%] h-auto mb-4 border-t-2 border-black pt-4'>
                     <h2 className='font-bold text-[1.8rem]'>{item.title}</h2>
                     <p className="w-3/4 md:w-[85%]">{item.description}</p>
                   </div>
 
                   <div className='flex items-center justify-around w-full md:w-3/4'>
                     <div className="border-2 border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white cursor-pointer">
-                        <h5 className='text-[1.1rem] px-4 py-1'>{item.one}</h5>
+                      <h5 className='text-[1.1rem] px-4 py-1'>{item.one}</h5>
                     </div>
+
                     <div className="border-2 border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white cursor-pointer">
-                        <h5 className='text-[1.1rem] px-4 py-1'>{item.two}</h5>
+                      <h5 className='text-[1.1rem] px-4 py-1'>{item.two}</h5>
                     </div>   
                   </div>
                 </div>
               </div>                                   
             ))} 
-            </div>           
+            </div>   
+
+             <div className='md:hidden w-screen flex items-center justify-center flex-col'>
+            {projectsR.map((item) => (             
+              <div className='border-2 border-t-blue-600 border-l-blue-600 border-r-black border-b-black w-3/4 mb-12 p-4 bg-white ml-[6rem]' key={item.id}> 
+                <div className='overflow-hidden'>
+
+                  <img className="w-full h-auto mb-4 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110 cursor-pointer" src={item.image} alt="" />
+
+                  <div className='w-[85%] h-auto mb-4 border-t-2 border-black pt-4'>
+                    <h2 className='font-bold text-[1.8rem]'>{item.title}</h2>
+                    <p className="w-3/4 md:w-[85%]">{item.description}</p>
+                  </div>
+
+                  <div className='flex items-center justify-around w-full md:w-3/4'>
+                    <div className="border-2 border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white cursor-pointer">
+                      <h5 className='text-[1.1rem] px-4 py-1'>{item.one}</h5>
+                    </div>
+
+                    <div className="border-2 border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white cursor-pointer">
+                      <h5 className='text-[1.1rem] px-4 py-1'>{item.two}</h5>
+                    </div>   
+                  </div>
+                </div>
+              </div>                                   
+            ))} 
+            </div>        
 
                
             </div>
 
             <div className="w-full md:w-1/2 h-full md:pt-[8rem] pl-[4rem] md:pl-0">
-            <div className='flex items-center justify-center flex-col'>
+            <div className='hidden md:flex items-center justify-center flex-col'>
             {projectsR.map((item) => (             
-              <div className='border-2 border-b-blue-600 border-r-blue-600 border-l-black border-t-black w-3/4 mb-12 p-4' key={item.id}> 
+              <div className='border-2 border-b-blue-600 border-r-blue-600 border-l-black border-t-black w-3/4 mb-12 p-4 bg-white' key={item.id}> 
                 <div className='overflow-hidden'>
 
                     <img className="w-full h-auto mb-4 transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110 cursor-pointer" src={item.image} alt="" />
