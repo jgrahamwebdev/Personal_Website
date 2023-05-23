@@ -52,7 +52,7 @@ const AboutScreen = () => {
             
            <div className='w-screen h-auto flex items-center justify-center flex-col md:flex-row border-b-2 border-black mt-[7rem] md:mt-0'>
                 <div className="w-screen md:w-1/2 flex items-center justify-center flex-col md:border-r-2 border-black">
-                    <h1 className="font-extrabold text-[3.5rem] mb-4">Hey, I'm Jordan <br/> nice to meet you!</h1>
+                    <h1 className="font-extrabold text-[3.5rem] mb-4">Hey, I'm Jordan <br/> <span className='text-white drop-shadow-[0_2.5px_10.5px_rgba(37,99,235,1)]'>nice to meet you!</span></h1>
                     <p className="w-[85%] md:w-[65%] mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>      
                 </div>
                 <div className='w-1/2 h-full flex items-center justify-center py-8'>
