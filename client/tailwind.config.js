@@ -8,6 +8,15 @@ module.exports = {
       backgroundImage: {
         
       },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-3deg)" },
+          "50%": { transform: "rotate(3deg)" }
+        }
+      },
+      animation: {
+        wiggle: "wiggle 250ms ease-in-out"
+      }
     },
   },
   plugins: [

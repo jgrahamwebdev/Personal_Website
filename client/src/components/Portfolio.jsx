@@ -1,4 +1,6 @@
 
+import { Fade } from "react-awesome-reveal";
+
 export const projectsL = [
     {
         id: 1,
@@ -45,9 +47,11 @@ const Portfolio = () => {
 
             <div className="w-full md:w-1/2 h-full flex items-center justify-center flex-col">
                 <div className="flex items-center md:items-start justify-center flex-col pl-[4.9rem] md:pl-[5.22rem] pt-8 mb-8 bg-white">
+                    <Fade cascade>
                     <h1 className="font-extrabold text-[3.5rem] mb-4">Portfolio</h1>
-                    <p className="w-3/4 mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>
+                    <p className="w-3/4 mb-8 ml-[4rem] md:ml-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>
                     <button className="border-2 border-blue-600 py-2 px-4 font-extralight hover:bg-blue-600 hover:text-white hover:text-normal hover:animate-pulse transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110">See More &rarr;</button>
+                    </Fade>
                 </div>
 
             <div className='w-screen md:w-full flex items-center justify-center flex-col'>
