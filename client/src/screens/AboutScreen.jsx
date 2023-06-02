@@ -56,7 +56,7 @@ const AboutScreen = () => {
                     <p className="w-[85%] md:w-[65%] mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>      
                 </div>
                 <div className='w-1/2 h-full flex items-center justify-center py-8'>
-                    <img className='w-full md:w-1/2 h-auto border-2 border-black' src="/img/3.png" alt="" />
+                    <img className='w-full md:w-1/2 h-auto border-2 border-black' src="/img/me.png" alt="" />
                 </div>
             </div>
 
