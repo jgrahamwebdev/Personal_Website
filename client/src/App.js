@@ -5,6 +5,7 @@ import AboutScreen from './screens/AboutScreen';
 import ContactScreen from './screens/ContactScreen';
 import HomeScreen from './screens/HomeScreen';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import PortfolioScreen from './screens/PortfolioScreen';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<HomeScreen /> } />
         <Route path='/about' element={<AboutScreen /> } />
+        <Route path='/portfolio' element={<PortfolioScreen /> } />
         <Route path='/contact' element={<ContactScreen /> } />
         <Route path='/message' element={<ContactForm />}/>
       </Routes>

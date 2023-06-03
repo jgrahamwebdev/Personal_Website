@@ -15,7 +15,7 @@ const ContactForm = () => {
     const [effect, setEffect] = useState(false);
 
     return (
-        <div className='w-screen h-screen md:h-screen flex items-center justify-center bg-blue-600 pt-[8rem]'>
+        <div className='w-screen h-full md:h-screen flex items-center justify-center bg-blue-600 pt-[8rem]'>
 
             <div className='fixed top-0 left-0 w-screen h-[6rem] bg-[#e8e8e7] border-b-2 border-black flex items-center justify-center z-10'>
                 <div className='h-full flex-1 flex items-center justify-end'>
@@ -26,7 +26,7 @@ const ContactForm = () => {
 
         <div className='w-full flex items-center justify-center flex-col'>
 
-            <div className='w-3/4 md:w-1/2 mb-8'>
+            <div className='w-3/4 md:w-[45rem] mb-8'>
                 <label htmlFor="name" className="block text-white text-lg font-medium leading-6">Name</label>
                 <div className="relative mt-2 rounded-md shadow-sm">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
@@ -36,7 +36,7 @@ const ContactForm = () => {
                 </div>
             </div>
 
-            <div className='w-3/4 md:w-1/2 mb-8'>
+            <div className='w-3/4 md:w-[45rem] mb-8'>
                 <label htmlFor="email" className="block text-lg font-medium leading-6 text-white">Email</label>
                 <div className="relative mt-2 rounded-md shadow-sm">
                     <div className="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
@@ -46,7 +46,7 @@ const ContactForm = () => {
                 </div>
             </div>
 
-            <div className='w-3/4 md:w-1/2 mb-8'>
+            <div className='w-3/4 md:w-[45rem] mb-8'>
                 <label htmlFor="message" className="block text-lg font-medium leading-6 text-white">Message</label>
                 <div className="relative mt-2 rounded-md shadow-sm">                  
                     <textarea name="" id="" cols="30" rows="10" placeholder='Your Message' className='w-full pt-2 pl-2 outline-none focus:ring-transparent'></textarea>

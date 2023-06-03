@@ -3,7 +3,7 @@ import Sidebar from "../components/Sidebar"
 
 const HomeScreen = () => {
     return (
-        <div className="flex">
+        <div className="flex scroll-smooth">
             <Sidebar />
             <HeaderBar />
         </div>

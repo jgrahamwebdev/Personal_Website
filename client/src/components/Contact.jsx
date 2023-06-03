@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
-        <div className="bg-blue-600 md:w-[calc(100vw-6rem)] h-[25rem] flex items-center justify-center flex-col ml-[6rem] md:ml-0 md:pl-8 border-t-2 border-black">
+        <div className="bg-blue-600 md:w-[calc(100vw-6rem)] h-[25rem] flex items-center justify-center flex-col md:ml-0 md:pl-8 border-t-2 border-black">
 
             <Slide>
                 <h1 className="font-extrabold text-[2.4rem] md:text-[3rem] mb-4 text-white text-center">Let's chat & <br /> make something awesome!</h1>
