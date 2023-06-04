@@ -5,8 +5,14 @@ import Footer from "./Footer"
 import Hero from "./Hero"
 import Portfolio from "./Portfolio"
 import Recommendations from "./Recommendations"
+import { useEffect } from "react";
 
 const HeaderBar = () => {
+ // Makes window start at top when navigating
+ useEffect (() => {  
+    window.scrollTo(0, 0)
+}, []);
+
     return (
         <div className="flex flex-col">
             <div className="md:w-[calc(100vw-6rem)] w-screen h-[5.5rem] bg-[#e8e8e7] flex items-center justify-between pl-8 border-b-2 border-black fixed z-[1]">
