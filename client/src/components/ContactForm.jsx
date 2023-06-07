@@ -53,7 +53,7 @@ const ContactForm = () => {
                 </div>
             </div>
 
-            <button className={`border-2 border-black bg-white py-2 px-8 font-extralight hover:text-white hover:border-white hover:bg-blue-600 text-black hover:text-normal transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110 hover:after:content-['📫'] after:content-['📪'] mb-[4rem] md:mb-0 ${
+            <button className={`border-2 border-black bg-white py-2 px-8 font-extralight text-black hover:text-normal transition ease-in-out delay-10 hover:-translate-y-1 hover:scale-110 hover:after:content-['📫'] after:content-['📪'] mb-[4rem] md:mb-0 ${
             effect && "animate-wiggle"
           } `} onClick={() => { setEffect(true); }}
           onAnimationEnd={() => setEffect(false)}>Submit </button>

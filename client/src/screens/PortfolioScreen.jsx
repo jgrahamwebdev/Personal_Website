@@ -10,7 +10,7 @@ export const products = [
       id: 1,
       img: '/p-imgs/site-1.png',
       one: 'React',
-      two: 'Tailwind CSS',
+      two: 'Material UI/Tailwind CSS',
       three: 'Strapi',
       title: 'ECommerce Store'
     },
@@ -18,8 +18,8 @@ export const products = [
       id: 2,
       img: '/p-imgs/site-2.png',
       one: 'MERN',
-      two: 'Bootstrap',
-      three: 'Tailwind CSS',
+      two: 'Bootstrap/Tailwind CSS',
+      three: 'Redux',
       title: 'Tech Stop'
     },
     {
@@ -71,8 +71,8 @@ const PortfolioScreen = () => {
                    <div className="w-full flex items-center justify-center flex-col md:flex-row mb-8" key={product.id}>
                     <div className="flex-[1] px-4 mb-8 md:mb-0">
                         <h1 className="text-[2rem] mb-4">{product.title}</h1>
-                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui laborum praesentium libero nemo numquam neque exercitationem magni tenetur quo, accusantium sint recusandae. Nobis dolorum repellat aspernatur id sit culpa est quod voluptatum harum, soluta architecto, ullam molestiae saepe quo. Deserunt minus sint fuga modi laudantium voluptatem, nemo deleniti?</p>
-                        <div className='flex items-center justify-around w-full md:w-[65%]'>
+                        <p className="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto provident qui laborum praesentium libero nemo numquam neque exercitationem magni tenetur quo, accusantium sint recusandae. Nobis dolorum repellat aspernatur id sit culpa est quod voluptatum harum, soluta architecto, ullam saepe quo. Deserunt minus sint fuga modi laudantium voluptatem, nemo deleniti.</p>
+                        <div className='flex items-center justify-between w-full md:w-[65%]'>
                             <div className="border-2 border-blue-600 bg-white text-black hover:bg-blue-600 hover:text-white cursor-pointer">
                                 <h5 className='text-[1.1rem] px-4 py-1'>{product.one}</h5>
                             </div>
@@ -85,7 +85,7 @@ const PortfolioScreen = () => {
                             </div>   
                         </div>
                     </div>
-                    <div className="md:flex-[1] flex items-center md:items-start justify-center w-full md:h-[40vh] h-full overflow-hidden cursor-pointer px-2 md:border-l-2 border-b-2 border-l-black border-b-blue-600">  
+                    <div className="md:flex-[1] flex items-center md:items-start justify-center w-full md:h-[40vh] h-full overflow-hidden cursor-pointer px-2 md:border-l-2 border-b-2 border-l-black border-b-blue-600 border-t-8 border-t-black">  
                         <Fade cascade className="w-full">                  
                         <img className="w-full md:hover:translate-y-[-100%] duration-[10s]" src={product.img} alt="" />
                         </Fade>   

@@ -12,7 +12,7 @@ export const cards = [
         sub: 'Live sound and studio recording/mixing',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, officiis similique dolore hic, debitis officia adipisci voluptatibus, iste dolores ratione inventore sed.',
         image: '/img/music.jpg',
-        timeline: '2010 - 2020',
+        timeline: '2010 - 2021',
     },
     {
         id: 2,
@@ -53,7 +53,7 @@ const AboutScreen = () => {
            <div className='w-screen h-auto flex items-center justify-center flex-col md:flex-row border-b-2 border-black mt-[7rem] md:mt-0'>
                 <div className="w-screen md:w-1/2 flex items-center justify-center flex-col md:border-r-2 border-black">
                     <h1 className="font-extrabold text-[3.5rem] mb-4">Hey, I'm Jordan <br/> <span className='text-white drop-shadow-[0_2.5px_10.5px_rgba(37,99,235,1)]'>nice to meet you!</span></h1>
-                    <p className="w-[85%] md:w-[65%] mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>      
+                    <p className="w-[85%] md:w-[65%] mb-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi perferendis doloribus fugit quam totam veniam quis hic provident officia.</p>   
                 </div>
                 <div className='w-1/2 h-full flex items-center justify-center py-8'>
                     <img className='w-full md:w-1/2 h-auto border-2 border-black' src="/img/me.png" alt="" />
